@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="registerplot">
+        <h2>Update Plot Details </h2>
+        <br>
+
+        <div class="registerplotdetails">
+            
+            <table>
+                <tr>
+                    <td>Plot ID: </td><td><%= plot %></td>
+                </tr>
+                <tr>
+                    <td>LAP: </td>
+                    <td>Dechencholing LAP</td>
+                </tr>
+               <tr>
+                   <td>Area: </td> <td>0.94 Acres</td>
+               </tr>
+               <tr>
+                   <td>Precinct: </td> <td>UV</td>
+               </tr>
+            </table>
+        </form>
+
+    </div>
+
+               
+
+    <div class="registerplotdetails">
+            <form action="/users/registerplot" method="POST">
+            <input type="hidden" name = "plotid" value="<%= plot %>" >
+            <div>
+                <input type="text" id="d_status" name="d_status" placeholder="Development Status" required>
+            </div>
+            <div>
+                <input type="text" id="coverage" name="coverage" placeholder="Coverage" required>
+            </div>
+            <div>
+                <input type="text" id="setbacks" name="setbacks" placeholder="Setbacks" required>
+            </div>
+            <div>
+                <input type="number" id="onsiteparking" name="onsiteparking" placeholder="On site parkings" required>
+            </div>
+        
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+
+        
+        </form>
+
+    </div>
+
+    </div>
+
+
+</body>
+</html>
