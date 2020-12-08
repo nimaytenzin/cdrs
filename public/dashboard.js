@@ -132,7 +132,7 @@ console.log(getColor("SP"))
 
     //legend
    var legend = L.control({
-      position: 'bottomright'
+      position: 'bottomleft'
   });
   legend.onAdd = function (mymap) {
   
