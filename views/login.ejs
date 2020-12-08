@@ -2,23 +2,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>CDRS | Welcome</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/login.css">
 
 </head>
 <body>
-    
+    <div id="notifications"></div>
     <div class="loginform">
-        <h2>Welcome to Compliance and Development Review System </h2>
-        <br>
-               
+      
+        <ul>
+            <% if(messages.success_msg){ %>
+                <li><%= messages.success_msg %></li>
+            <% } %>
+        </ul>
 
-    <div class="login">
-        <h3 style="text-align: center;">login</h3>
-        <form action="/users/login" method="POST">
+        <ul>
+            <% if(messages.error){ %>
+                <li><%= messages.error %></li>
+
+             <% } %>
+        </ul>        
+      <div class="login">
+        <img src="/assets/app-logo.png" alt="">
+        <form action="/users/login/" method="POST">
             <div>
-                <input type="text" id="name" name="name" placeholder="User Name" required>
+                <input type="text" id="email" name="email" placeholder="User Name" required>
             </div>
         
             <div>
@@ -28,16 +37,24 @@
                 <input type="submit" value="Login">
             </div>
     
-            <a href="/users/register">Not registered? Register</a> <br>
-            <a href="/users/register">Forgot Password?</a> 
-            
+            <a href="/users/register" style="font-weight: lighter;"><p>Not registered? Register here</p></a> <br>
+                    </form>
+    </div>
+
+    <!-- <div class="appinfo">
+        <h3 style="text-align: center;">CDRS V0.1</h3>
+        <p>Compliance and Development Review System</p>
+        <p>©CDRD, MOWHS @2020</p>
+    </div> -->
+
+    </div>
+
+    <footer>
+        <p>© Compliance & Development Review Division, MoWHS @2020</p>
+    </footer>
     
-        
-        </form>
 
-    </div>
-
-    </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.js"></script>
+    <script src="/login.js"></script>
 </body>
 </html>

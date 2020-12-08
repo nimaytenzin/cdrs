@@ -2,24 +2,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>CDRS | Dashboard</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
   crossorigin=""/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/dashboard.css">
+  <link rel="stylesheet" href="/sidebar/L.Control.Sidebar.css">
+  <link rel="shortcut icon" href="/assets/fav-ico.png" type="image/x-icon" />
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light ms-auto">
-        <h3  class="navbar-nav ">CDRS</h3> 
-        <button class="btn btn-dark" onclick="getCurrentLocation()">Get current position</button>
-        <a href="/users/login" class="navbar-nav w-100"><button class="btn btn-dark">logout</button></a>
+<!-- 
+    <nav>
+      <a href="/users/login" style="float: right;"><img src="/assets/logout.png" alt=""></button></a>
     </nav>
-
+ -->
 
     <div id="map" class="map">
 
+      <button id="refreshButton">Refresh Button</button>
+      <div class="leaflet-control-container">
+        <div class="leaflet-sidebar left">
+          
+        <div id="sidebar" class="leaflet-control">
+        
+        <table>
+          <tr>
+            <td>Plot ID : </td><td id="plotid" ></td>
+          </tr>
+          <tr>
+            <td>Precinct : </td><td id="precinct" ></td>
+          </tr>
+          <tr>
+            <td>Area : </td><td id="area" ></td>
+          </tr>
+          <tr>
+            <td>Coverage : </td><td id="coverage" ></td>
+          </tr>
+          <tr>
+            <td>Setbacks : </td><td id="setback" ></td>
+          </tr>
+          <tr>
+            <td>Maximum Height : </td><td id="height" ></td>
+          </tr>
+        </table>
+             
+        <a href= "/users/registerplot/${feature.properties.plot_id}"><button class="btn btn-dark" style="width: 100%;"> Update plot Details </button></a>
+
+        <a href="/users/login/" style="float: right;"><button class="btn btn-primary btn-ghost btn-slide" >
+          Log Out
+        </button></button></a>
+
+        
+
+    </div>
+
+    </div>
+    
+    </div>
     </div>
     
 
@@ -29,5 +69,6 @@
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
   crossorigin=""></script>
+  <script src="/sidebar/L.Control.Sidebar.js"></script>
 <script src="/dashboard.js"></script>
 </html>

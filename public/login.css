@@ -1,0 +1,81 @@
+html{
+    /* background: linear-gradient(to right,white, #7AADA6) */
+    background-image: url('/assets/loginbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+input{
+    width: 100%;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+}
+.appinfo{
+    padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    width: 35vh;
+    height: 35vh;
+}
+
+.login{
+    padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: white;
+    min-width: 35rem;
+    max-width:auto;
+    min-height: 35rem;
+    max-height: auto;
+    margin:0 auto;
+    top: 50%;
+     
+}
+.login:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+}
+
+footer {
+    position: fixed;
+    padding: 0.2rem;
+    left: 0;
+    bottom: -15px;
+    width: 100%;
+    background-color: white;
+    color:black;
+    text-align: center;
+    opacity: .8;
+  }
+
+  #notifications {
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    z-index: 9999;
+    bottom: 0px;
+    margin-bottom: 22px;
+    margin-right: 15px;
+    max-width: 300px;   
+}

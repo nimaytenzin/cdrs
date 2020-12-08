@@ -2,19 +2,41 @@ const express = require('express');
 const app = express();
 const {pool} = require("./dbconfig");
 const bcrypt = require('bcrypt');
-const cors = require('cors')
+const cors = require('cors');
+const session = require('express-session');
+const flash = require('express-flash');
+const passport = require("passport");
 
+const initializePassport = require("./passsportConfig");
+initializePassport(passport);
 
 const PORT = process.env.PORT || 3000;
+
+//middle ware section
+app.use(express.urlencoded({extended:false}));
 app.use(express.static(__dirname + '/public'));
-app.use(express.urlencoded({extended:false}))
-
 app.set('view engine', 'ejs');
-// app.use(cors)
+app.use(session({
+    secret: 'secret',
+    resave:false,
+    saveUninitialized: false
 
-app.get('/', (req, res) =>{
-    res.render("index")
-})
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(flash());
+
+
+
+
+
+// routes
+
+
+// app.get('/', (req, res) =>{
+//     res.render("index")
+// })
 
 app.get('/users/register', (req,res) => {
     res.render("register")
@@ -62,47 +84,66 @@ app.post('/users/register', async (req, res)=> {
                   console.log('Email Already Registered')
                     res.render('register', {errors})
                 
+                }else{
+                    pool.query(
+                     `INSERT INTO users (name,email,password)
+                     VALUES($1,$2,$3)
+                     RETURNING id,password`,[name, email, hashedPassword], (err,results)=>{
+                         if (err){
+                             throw err
+                         }
+                         console.log(results.rows);
+                         req.flash('success_msg', 'You are now registered. Please log in');
+                         res.redirect('/users/login')
+                     }
+                    )
                 }
             }
         )
     }
 })
 
-app.get('/users/login', (req,res) => {
+app.get(['','/users/login'], (req,res) => {
     res.render("login")
 })
 
-app.post('/users/login', async (req,res) => {
-    let {name, password } = req.body;
+app.post('/users/login', passport.authenticate('local', {
+    successRedirect: "/users/dashboard",
+    failureRedirect:"/users/login/",
+    failureFlash: true
+    
+}) )
 
-    console.log({
-        name,
-        password
-    })
 
-    let errors = [];
-
-    res.render('dashboard')
+app.get('/:id/dashboard', (req,res) => {
+    res.render("dashboard")
 })
-app.get('/users/dashboard', (req,res) => {
-    res.render("dashboard", {user: 'nima'})
-})
-app.post('/users/registerplot/', (req,res)=>{
+app.post('/users/registerplot/:plot_id', (req,res)=>{
     // res.render('dashboard')
+    let { d_status, coverage, setbacks,onsiteparking} = req.body;
+    const { plot_id } = req.params;
+    console.log({plot_id,d_status,coverage,setbacks, onsiteparking})
+
+    pool.query(
+        `INSERT INTO plotdetails (plot_id,d_status,coverage,setbacks,parking)
+        VALUES($1,$2,$3,$4,$5)
+          `,[plot_id, d_status, coverage, setbacks, onsiteparking], (err,results)=>{
+            if (err){
+                throw err
+            }
+            console.log(results.rows);
+            req.flash('success_msg', 'Plot Details Updated.');
+            res.redirect('/users/dashboard/')
+        }
+       )
+
+
     res.redirect('/users/dashboard')
 })
 
 
 app.get('/users/registerplot/:id', (req, res) => {
-    let { d_status, coverage, setbacks,onsiteparking} = req.body;
     const {id} = req.params;
-    console.log({
-        id,
-        d_status,
-        coverage,
-        setbacks,
-        onsiteparking
-    })
     res.render('registerplot',{plot:id});
 })
 
