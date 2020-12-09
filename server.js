@@ -107,15 +107,19 @@ app.get(['','/users/login'], (req,res) => {
     res.render("login")
 })
 
+app.get('/users/selectzone', (req,res) => {
+    res.render("selectzone")
+})
+
 app.post('/users/login', passport.authenticate('local', {
-    successRedirect: "/users/dashboard",
+    successRedirect: "/users/selectzone",
     failureRedirect:"/users/login/",
     failureFlash: true
     
 }) )
 
 
-app.get('/:id/dashboard', (req,res) => {
+app.get('/users/dashboard', (req,res) => {
     res.render("dashboard")
 })
 app.post('/users/registerplot/:plot_id', (req,res)=>{

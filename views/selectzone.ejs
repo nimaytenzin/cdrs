@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDRS | Zone Select</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="/register.css">
+</head>
+<body>
+    <div class="registerform">
+          <div class="register">
+            <img src="/assets/app-logo.png" alt="">
+            <form action="/users/dashboard" method="GET">
+              
+                <div>
+                    <label for="thromdes">Select Thromde:</label>
+                     <select id="thromde" name="thromde" style="width: 100%;" required>
+                        <option value="" selected disabled hidden>Choose Thromde</option>
+                        <option value="thimphuThromde">Thimphu Thromde</option>
+                        <option value="phuntsholingThromde">Phuntsholing Thromde</option>
+                        <option value="gelephuThromde">Gelephu Thromde</option>
+                        <option value="samdrupThromde">Samdrup Jongkhar Thromde</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <label for="laps">Select LAP:</label>
+                     <select id="lap" name="lap" style="width: 100%;" required>
+                        <option value="" selected disabled hidden>Choose LAP</option>
+                        <option value="dechencholingLap">Dechencholing LAP</option>
+                        <option value="simtokhaLap">Simtokha LAP</option>
+                        <option value="tabaLap">Taba LAP</option>
+                    </select>
+                </div>          
+        
+                <div>
+                    <input type="submit" value="Select">
+                </div>       
+            </form>
+        </div>
+                 
+    </form>
+    </div>

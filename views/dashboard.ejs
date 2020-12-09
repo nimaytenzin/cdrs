@@ -8,6 +8,7 @@
   crossorigin=""/>
   <link rel="stylesheet" href="/dashboard.css">
   <link rel="stylesheet" href="/sidebar/L.Control.Sidebar.css">
+  <link rel="stylesheet" href="/search/leaflet-search.css">
   <link rel="shortcut icon" href="/assets/fav-ico.png" type="image/x-icon" />
 </head>
 <body>
@@ -19,13 +20,18 @@
  -->
 
     <div id="map" class="map">
-
-      
-      <div class="leaflet-control-container">
-        <div class="leaflet-sidebar left">
+      <!-- <div class="leaflet-control-search leaflet-control">
+        <label class="search-input" for="searchtext9" style="display: none;"></label>
+        <input class="search-input" type="text" size="9" autocomplete="off" autocapitalize="off" placeholder="Insert Plot ID..." id="searchtext9" style="display: none; max-width: 700px;">
+        <ul class="search-tooltip" style="display: none;"></ul>
+        <a class="search-cancel" href="#" title="Cancel" style="display: none;"><span>⊗</span></a>
+        <a class="search-button" href="#" title="Search..." style="outline: none;"></a><div class="search-alert" style="display: none;">Plot ID not found</div>
+      </div>
+       -->
+      <div class="leaflet-control-container" id="sidebar">
+        <button onclick="closeSidebar()" class="shutdown"> X</button>
+        <div  class="leaflet-control">
           
-        <div id="sidebar" class="leaflet-control">
-          <button onclick="closeSidebar()" style="float: right;"> X</button>
         <table>
           <tr>
             <td>Plot ID : </td><td id="plotid" ></td>
@@ -45,25 +51,30 @@
           <tr>
             <td>Maximum Height : </td><td id="height" ></td>
           </tr>
-        </table>
-             
+        </table> 
         <br><br><br><br>
-        <a href= "/users/registerplot/${feature.properties.plot_id}"><button class="updateplot" style="width: 100%;"> Update plot Details </button></a>      
+
+        <a id = "link" ><button class="updateplot" style="width: 100%;"> Update plot Details </button></a>    
+        
+      
 
     </div>
 
+    
+   
     </div>
+
     
     </div>
-    </div>
     
-
-
 </body>
 
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
   crossorigin=""></script>
+
+  <script src="/choropleth.js"></script>
   <script src="/sidebar/L.Control.Sidebar.js"></script>
+  <script src="/search/leaflet-search.js"></script>
 <script src="/dashboard.js"></script>
 </html>

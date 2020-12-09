@@ -1,0 +1,52 @@
+
+html{
+    /* background: linear-gradient(to right,white, #7AADA6) */
+    /* background-image: url('/assets/loginbg.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.registerplot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.plotdetails{
+    padding: 2px 16px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.registerplotdetails{
+    padding: 2px 16px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+}
+
+
+  input{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}

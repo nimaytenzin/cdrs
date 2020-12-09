@@ -4,11 +4,11 @@ html{
     padding: 0;
     height: 100%;
 }
-body{
+/* body{
     margin: 0;
     background-color: #E5B681;
     height: 100%;
-}
+} */
 
 * {
     -moz-box-sizing: border-box;
@@ -77,3 +77,9 @@ td{
     background-color: white;
 
     }
+
+.shutdown{
+    background-color: #ffffff;
+    float: right;
+    border: red;
+}
