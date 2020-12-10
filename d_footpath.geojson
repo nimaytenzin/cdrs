@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "d_footpath",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "length": 60.108403151499999 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 89.638065791427152, 27.528428235975792 ], [ 89.638354754077056, 27.528407115598174 ], [ 89.63835060086349, 27.528237353962513 ], [ 89.638478350705228, 27.528229393382674 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": 0, "length": 22.8959843128 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 89.638478350705228, 27.528229393382674 ], [ 89.638464701339558, 27.528023131895409 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": 0, "length": 37.662062856399999 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 89.638478350705228, 27.528229393382674 ], [ 89.638482137017675, 27.528275174798946 ], [ 89.638811560864099, 27.528262071306482 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": 0, "length": 21.675994933399998 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 89.638811560864099, 27.528262071306482 ], [ 89.638811636272763, 27.528355907207025 ], [ 89.638877054885086, 27.528439315306482 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": 0, "length": 52.518717130799999 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 89.638168676951253, 27.530839798444173 ], [ 89.638546331218848, 27.530925939314585 ], [ 89.63868562672117, 27.530949727363545 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": 0, "length": 41.671035870399997 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 89.638517580750687, 27.531145863155043 ], [ 89.638095798480947, 27.531151988214791 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": 0, "length": 28.994568016799999 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 89.638338801429498, 27.531148459518207 ], [ 89.638399811605325, 27.530892519131015 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": 0, "length": 52.517229328200003 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 89.638713219734427, 27.531845846180371 ], [ 89.638686296840035, 27.531372523589368 ] ] ] } }
+]
+}
