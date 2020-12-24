@@ -1,9 +1,11 @@
-[{
-    "name": "21/20/2020 Day 1",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/POSITIVE_CASES.geojson",
+[
+
+{
+    "name": "23/20/2020 Day 3",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThree.geojson",
     "style" : {
         "radius": 9,
-        "fillColor": "rgb(247,202,164)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -23,14 +25,16 @@
     }
 },
 {
-    "name": "23/20/2020 Day 3",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThree.geojson",
+    "name": "21/20/2020 Day 1",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/POSITIVE_CASES.geojson",
     "style" : {
         "radius": 9,
-        "fillColor": "rgb(rgb(188,57,33))",
+        "fillColor": "rgb(247,202,164)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
         "fillOpacity": 1
     }
-}]
+}
+
+]
