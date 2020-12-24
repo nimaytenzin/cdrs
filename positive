@@ -12,6 +12,18 @@
     }
 },
 {
+    "name": "24/20/2020 Day 4 ",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFour.geojson",
+    "style" : {
+        "radius": 9,
+        "fillColor": "rgb(111,175,4)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
     "name": "23/20/2020 Day 3",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThree.geojson",
     "style" : {
