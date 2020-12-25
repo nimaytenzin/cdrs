@@ -1,17 +1,5 @@
 [
 {
-    "name": "National Total Cases 25/12/20",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/25_12.geojson",
-    "style" : {
-        "radius": 7,
-        "fillColor": "#E8112D",
-        "color": "red",
-        "weight": 1,
-        "opacity": 1,
-        "fillOpacity": 1
-    }
-},
-{
     "name": "25/20/2020 Day 5",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFive.geojson",
     "style" : {
