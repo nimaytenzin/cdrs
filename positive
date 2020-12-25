@@ -1,7 +1,31 @@
 [
 {
-    "name": "25/20/2020 Day 5",
+    "name": "Dzongkhag Boundary",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/DzongkhagBound.geojson",
+    "style" : {
+        "radius": 9,
+        "fillColor": "#E8112D",
+        "color": "yellow",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 0
+    }
+},
+{
+    "name": "National Total Cases 25/12/20",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFive.geojson",
+    "style" : {
+        "radius": 9,
+        "fillColor": "#E8112D",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
+    "name": "25/20/2020 Day 5",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/25_12.geojson",
     "style" : {
         "radius": 9,
         "fillColor": "rgb(111,175,4)",
