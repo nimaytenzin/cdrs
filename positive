@@ -1,10 +1,22 @@
 [
 {
+    "name": "25/20/2020 Day 5",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFive.geojson",
+    "style" : {
+        "radius": 9,
+        "fillColor": "rgb(111,175,4)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
     "name": "24/20/2020 Day 4 Evening",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFourEvening.geojson",
     "style" : {
         "radius": 9,
-        "fillColor": "rgb(111,175,4)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -16,7 +28,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFour.geojson",
     "style" : {
         "radius": 9,
-        "fillColor": "rgb(111,175,4)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
