@@ -1,35 +1,10 @@
 [
-   {
-       "labels":  ["Thimphu", "Paro", "Haa", "Punakha", "WangdiPhodrang", "Trongsa", "Bumthang", "Dagana"]
-   },
-   {
-       "label":"21/12/20",
-       "data":[20,0,0,2,0,0,0,0],
-       "backgroundColor": "red"
-   },
-   {
-    "label":"22/12/20",
-    "data":[7,3,0,0,0,0,0,0],
-      "backgroundColor": "blue"
-},
-{
-    "label":"23/12/20",
-    "data":[6,15,0,2,0,0,1,0],
-    "backgroundColor": "green"
-},
-{
-    "label":"24/12/20",
-    "data":[17,2,0,0,1,0,1,0],
-     "backgroundColor": "orange"
-},
-{
-    "label":"25/12/20",
-    "data":[30,1,1,0,0,1,2,0],
-     "backgroundColor": "white"
-},
-{
-    "label":"26/12/20",
-    "data":[4,10,0,2,0,0,0,1],
-     "backgroundColor": "pink"
-}  
+    {"dzongkhag": "Thimphu", "cases": 84},
+    {"dzongkhag": "Paro", "cases": 31},
+    {"dzongkhag": "Haa", "cases": 1},
+    {"dzongkhag": "Punakha", "cases": 2},
+    {"dzongkhag": "Wangdiphodrang", "cases": 1},
+    {"dzongkhag": "Trongsa", "cases": 1},
+    {"dzongkhag": "Bumthang", "cases": 4},
+    {"dzongkhag": "Dagana", "cases": 2},
 ]
