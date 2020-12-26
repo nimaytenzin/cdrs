@@ -1,17 +1,5 @@
 [
 {
-    "name": "National Covid Cases 26/12/2020",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/25_12.geojson",
-    "style" : {
-        "radius": 4,
-        "fillColor": "rgb(247,153,117)",
-        "color": "red",
-        "weight": 1,
-        "opacity": 1,
-        "fillOpacity": 1
-    }
-},
-{
     "name": "26/12/2020 Day 6",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySix.geojson",
     "style" : {
