@@ -1,6 +1,6 @@
 [
 {
-    "name": "National Covid Cases 26/20/2020",
+    "name": "National Covid Cases 26/12/2020",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/25_12.geojson",
     "style" : {
         "radius": 4,
@@ -12,7 +12,7 @@
     }
 },
 {
-    "name": "25/20/2020 Day 6",
+    "name": "26/12/2020 Day 6",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySix.geojson",
     "style" : {
         "radius": 9,
@@ -24,7 +24,7 @@
     }
 },
 {
-    "name": "25/20/2020 Day 5 Evening",
+    "name": "25/12/2020 Day 5 Evening",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFiveEvening.geojson",
     "style" : {
         "radius": 5,
@@ -36,7 +36,7 @@
     }
 },
 {
-    "name": "25/20/2020 Day 5",
+    "name": "25/12/2020 Day 5",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFive.geojson",
     "style" : {
         "radius": 5,
@@ -48,7 +48,7 @@
     }
 },
 {
-    "name": "24/20/2020 Day 4 Evening",
+    "name": "24/12/2020 Day 4 Evening",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFourEvening.geojson",
     "style" : {
         "radius": 5,
@@ -60,7 +60,7 @@
     }
 },
 {
-    "name": "24/20/2020 Day 4 ",
+    "name": "24/12/2020 Day 4 ",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFour.geojson",
     "style" : {
         "radius": 5,
@@ -72,7 +72,7 @@
     }
 },
 {
-    "name": "23/20/2020 Day 3",
+    "name": "23/12/2020 Day 3",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThree.geojson",
     "style" : {
         "radius": 5,
@@ -84,7 +84,7 @@
     }
 },
 {
-    "name": "22/20/2020 Day 2",
+    "name": "22/12/2020 Day 2",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTwo.geojson",
     "style" : {
         "radius": 5,
@@ -96,7 +96,7 @@
     }
 },
 {
-    "name": "21/20/2020 Day 1",
+    "name": "21/12/2020 Day 1",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/POSITIVE_CASES.geojson",
     "style" : {
         "radius": 5,
