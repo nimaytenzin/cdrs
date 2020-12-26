@@ -1,17 +1,5 @@
 [
 {
-    "name": "26/20/2020 Day 6 ",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySix.geojson",
-    "style" : {
-        "radius": 9,
-        "fillColor": "rgb(111,175,4)",
-        "color": "red",
-        "weight": 1,
-        "opacity": 1,
-        "fillOpacity": 1
-    }
-},
-{
     "name": "25/20/2020 Day 5 Evening",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFiveEvening.geojson",
     "style" : {
