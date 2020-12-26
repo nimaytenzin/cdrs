@@ -1,0 +1,32 @@
+[
+{
+       "label":"21/12/20",
+       "data":[20,0,0,2,0,0,0,0],
+       "backgroundColor": "red"
+   },
+   {
+    "label":"22/12/20",
+    "data":[7,3,0,0,0,0,0,0],
+      "backgroundColor": "red"
+},
+{
+    "label":"23/12/20",
+    "data":[6,15,0,2,0,0,1,0],
+    "backgroundColor": "red"
+},
+{
+    "label":"24/12/20",
+    "data":[17,2,0,0,1,0,1,0],
+     "backgroundColor": "red"
+},
+{
+    "label":"25/12/20",
+    "data":[30,1,1,0,0,1,2,0],
+     "backgroundColor": "red"
+},
+{
+    "label":"26/12/20",
+    "data":[4,10,0,2,0,0,0,1],
+     "backgroundColor": "red"
+}  
+]
