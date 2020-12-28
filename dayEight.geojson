@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "dayEight",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 4166, "building_n": "163144", "lat": 27.452695, "lng": 89.651802, "status": "COMPLETE", "sub_zone_i": 25, "createdAt": "\\N", "updatedAt": "2020-09-25 04:30:33", "POPULATION": 15.0 }, "geometry": { "type": "Point", "coordinates": [ 89.651802, 27.452695 ] } },
+{ "type": "Feature", "properties": { "id": 5552, "building_n": "164704", "lat": 27.530464, "lng": 89.639501, "status": "COMPLETE", "sub_zone_i": 48, "createdAt": "\\N", "updatedAt": "2020-10-05 05:14:29", "POPULATION": 47.0 }, "geometry": { "type": "Point", "coordinates": [ 89.639501, 27.530464 ] } }
+]
+}
