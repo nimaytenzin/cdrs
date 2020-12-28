@@ -1,10 +1,22 @@
 [
 {
-    "name": "27/12/2020 Day 7",
+    "name": "28/12/2020 Day 8",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySeven.geojson",
     "style" : {
         "radius": 9,
         "fillColor": "rgb(0,247,0)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
+    "name": "27/12/2020 Day 7",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySeven.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(247,153,117)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
