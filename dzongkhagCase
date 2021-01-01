@@ -1,5 +1,5 @@
 [
-    {"dzongkhag": "Thimphu", "cases": 146, "background": "rgba(255, 99, 132)"},
+    {"dzongkhag": "Thimphu", "cases": 148, "background": "rgba(255, 99, 132)"},
     {"dzongkhag": "Paro", "cases": 54, "background": "rgba(54, 162, 235)"},
     {"dzongkhag": "Haa", "cases": 1, "background": "rgba(255, 206, 86)"},
     {"dzongkhag": "Punakha", "cases": 2, "background": "rgba(75, 192, 192)"},
