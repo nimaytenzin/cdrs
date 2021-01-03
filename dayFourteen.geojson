@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "dayFourteen",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5264" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 5256, "id": 5522, "building_n": "164673", "lat": 27.526808, "lng": 89.638824, "status": "COMPLETE", "sub_zone_i": 48, "createdAt": "\\N", "updatedAt": "2020-09-27 04:19:55", "POPULATION": 13.0 }, "geometry": { "type": "Point", "coordinates": [ 89.638824000000113, 27.526808 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 12773, "id": 13649, "building_n": "23649", "lat": 27.4350880617, "lng": 89.647414575900001, "status": "COMPLETE", "sub_zone_i": 49, "createdAt": "\\N", "updatedAt": "2020-09-30 05:35:22", "POPULATION": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 89.647414575934079, 27.435088061717977 ] } }
+]
+}
