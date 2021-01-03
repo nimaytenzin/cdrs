@@ -1,10 +1,22 @@
 [
 {
-    "name": "2/1/2021 Day 13",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThirteen.geojson",
+    "name": "3/1/2021 Day 14",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFourteen.geojson",
     "style" : {
         "radius": 11,
         "fillColor": "rgb(0,247,0)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
+    "name": "2/1/2021 Day 13",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThirteen.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(247,153,117)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -27,6 +39,18 @@
 {
     "name": "31/12/2020 Day 11",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayEleven.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(247,153,117)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
+    "name": "30/12/2020 Day 10 Evening",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTenEvening.geojson",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,153,117)",
