@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "daySeventeen",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 2970, "building_n": "161896", "lat": 27.433571, "lng": 89.648517, "status": "COMPLETE", "sub_zone_i": 11, "createdAt": "\\N", "updatedAt": "2020-09-26 08:40:24", "POPULATION": 60.0 }, "geometry": { "type": "Point", "coordinates": [ 89.648517, 27.433571 ] } }
+]
+}
