@@ -24,6 +24,18 @@
     }
 },
 {
+    "name": "5/1/2021 Day 16",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySixteen.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(247,153,117)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
     "name": "4/1/2021 Day 15",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFifteen.geojson",
     "style" : {
@@ -99,6 +111,18 @@
 {
     "name": "30/12/2020 Day 10",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTen.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(247,153,117)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
+    "name": "29/12/2020 Day 9",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,153,117)",
