@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "quarantineCases",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1731, "building_n": "160472", "lat": 27.449819, "lng": 89.657645, "status": "COMPLETE", "sub_zone_i": 24, "createdAt": "\\N", "updatedAt": "2020-10-01 04:31:56", "POPULATION": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 89.657645, 27.449819 ] } },
+{ "type": "Feature", "properties": { "id": 6864, "building_n": "166189", "lat": 27.468991, "lng": 89.640723, "status": "COMPLETE", "sub_zone_i": 28, "createdAt": "\\N", "updatedAt": "2020-09-22 05:55:08", "POPULATION": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 89.640723, 27.468991 ] } }
+]
+}
