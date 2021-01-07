@@ -1,5 +1,16 @@
 [
 {
+    "name": "7/1/2021 Day 18",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayninteen.geojson",
+    "style" : {
+        "radius": 11,
+        "fillColor": "rgb(0,247,0)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+{
     "name": "Cases from Quarantine",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/quarantineCases.geojson",
     "style" : {
@@ -15,7 +26,7 @@
     "name": "6/1/2021 Day 17",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySeventeen.geojson",
     "style" : {
-        "radius": 11,
+        "radius": 5,
         "fillColor": "rgb(0,247,0)",
         "color": "red",
         "weight": 1,
