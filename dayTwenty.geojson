@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "dayTwenty",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1804, "id": 1921, "building_n": "160666", "lat": 27.437572, "lng": 89.658311, "status": "COMPLETE", "sub_zone_i": 3, "createdAt": "\\N", "updatedAt": "2020-10-04 09:05:36", "POPULATION": 53.0 }, "geometry": { "type": "Point", "coordinates": [ 89.658311, 27.437572000000102 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7703, "id": 8112, "building_n": "167457", "lat": 27.458753, "lng": 89.646094, "status": "COMPLETE", "sub_zone_i": 51, "createdAt": "\\N", "updatedAt": "2020-09-24 13:58:31", "POPULATION": 64.0 }, "geometry": { "type": "Point", "coordinates": [ 89.646094, 27.458753 ] } }
+]
+}
