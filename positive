@@ -4,7 +4,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTwenty.geojson",
     "style" : {
         "radius": 11,
-        "fillColor": "rgb(183, 51, 255)",
+        "fillColor": "rgb(247,153,117)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
