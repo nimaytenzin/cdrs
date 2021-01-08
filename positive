@@ -16,7 +16,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayninteen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(0,247,0)",
+        "fillColor": "rgb(247,153,117)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -40,7 +40,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySeventeen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(0,247,0)",
+        "fillColor": "rgb(247,153,117)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
