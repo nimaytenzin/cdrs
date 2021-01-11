@@ -5,7 +5,7 @@
     "style" : {
         "radius": 5,
         "fillColor": "rgb(248,159,5)",
-        "color": "red",
+        "color": "orange",
         "weight": 1,
         "opacity": 1,
         "fillOpacity": 1
@@ -17,7 +17,7 @@
     "style" : {
         "radius": 5,
         "fillColor": "rgb(25,249,5)",
-        "color": "red",
+        "color": "green",
         "weight": 1,
         "opacity": 1,
         "fillOpacity": 1
