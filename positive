@@ -1,5 +1,29 @@
 [
 {
+    "name": "Primary contact_21days not completed",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/PC_lessthan21days.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(248,159,5)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
+    "name": "Primary contact_21days completed",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/PC_morethan21days.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(25,249,5)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
     "name": "10/1/2021 Day 21",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTwentyone.geojson",
     "style" : {
