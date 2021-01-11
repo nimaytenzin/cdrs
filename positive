@@ -3,8 +3,8 @@
     "name": "10/1/2021 Day 21",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTwentyone.geojson",
     "style" : {
-        "radius": 11,
-        "fillColor": "rgb(62,219,19)",
+        "radius": 5,
+        "fillColor": "rgb(247,153,117)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
