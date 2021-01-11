@@ -4,7 +4,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTwentyone.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -16,7 +16,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTwenty.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -28,7 +28,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayninteen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -52,7 +52,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySeventeen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -64,7 +64,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySixteen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -76,7 +76,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFifteen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -88,7 +88,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFourteen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -100,7 +100,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThirteen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -112,7 +112,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTwelve.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -125,7 +125,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayEleven.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -137,7 +137,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTenEvening.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -149,7 +149,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTen.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -161,7 +161,7 @@
     "dataUrl" : "",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -173,7 +173,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayEight.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -185,7 +185,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySeven.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -197,7 +197,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySixEvening.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -209,7 +209,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySix.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -221,7 +221,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFiveEvening.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
@@ -233,7 +233,7 @@
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFive.geojson",
     "style" : {
         "radius": 5,
-        "fillColor": "rgb(247,153,117)",
+        "fillColor": "rgb(247,18,40)",
         "color": "red",
         "weight": 1,
         "opacity": 1,
