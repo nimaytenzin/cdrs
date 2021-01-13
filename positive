@@ -24,7 +24,19 @@
     }
 },
 {
-    "name": "Primary contact_21days not completed",
+    "name": "Primary contact_21days not completed_FQ",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/PC_lessthan21days_FQ.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(113,35,247)",
+        "color": "black",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
+{
+    "name": "Primary contact_21days not completed_HQ",
     "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/PC_lessthan21days.geojson",
     "style" : {
         "radius": 5,
