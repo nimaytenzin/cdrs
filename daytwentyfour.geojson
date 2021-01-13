@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "daytwentyfour",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 7618, "id": 8019, "building_n": "167363", "lat": 27.455763, "lng": 89.645278, "status": "COMPLETE", "sub_zone_i": 4, "createdAt": "\\N", "updatedAt": "2020-09-27 07:43:24", "POPULATION": 10.0 }, "geometry": { "type": "Point", "coordinates": [ 89.645278000000133, 27.455763000000104 ] } }
+]
+}
