@@ -328,7 +328,7 @@
 },
 {
     "name": "24/12/2020 Day 4 ",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFour.geojson",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayfour.geojson",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
