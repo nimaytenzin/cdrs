@@ -1,16 +1,4 @@
 [
-{
-    "name": "PC_nodate",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/novalue.geojson",
-    "style" : {
-        "radius": 5,
-        "fillColor": "rgb(249,3,252)",
-        "color": "red",
-        "weight": 1,
-        "opacity": 1,
-        "fillOpacity": 1
-    }
-},
 
 {
     "name": "Primary contact_21days not completed_FQ",
@@ -48,6 +36,18 @@
         "fillOpacity": 1
     }
   },
+   {
+    "name": "16/1/2021 Day 27",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daytwentysix.geojson",
+    "style" : {
+        "radius": 5,
+        "fillColor": "rgb(247,18,40)",
+        "color": "red",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 1
+    }
+},
   
   {
     "name": "13/1/2021 Day 24",
