@@ -340,7 +340,7 @@
 },
 {
     "name": "23/12/2020 Day 3",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThree.geojson",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daythree.geojson",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
