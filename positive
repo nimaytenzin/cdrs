@@ -304,7 +304,7 @@
 },
 {
     "name": "25/12/2020 Day 5",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayfive.geojson",
+    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFive.geojson",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
