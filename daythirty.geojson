@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "daythirty",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 7982, "id": 8397, "building_n": "167819", "lat": 27.461097, "lng": 89.635227, "status": "COMPLETE", "sub_zone_i": 30, "createdAt": "\\N", "updatedAt": "2020-09-22 11:11:02", "POPULATION": 68.0 }, "geometry": { "type": "Point", "coordinates": [ 89.635227, 27.461097 ] } }
-]
-}
