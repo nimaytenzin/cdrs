@@ -232,7 +232,7 @@
 },
 {
     "name": "30/12/2020 Day 10 Evening",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTenEvening.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
