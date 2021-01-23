@@ -304,7 +304,7 @@
 },
 {
     "name": "26/12/2020 Day 6",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySix.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
