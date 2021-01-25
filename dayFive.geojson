@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "dayFive",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1170, "building_n": "159875", "lat": 27.450114, "lng": 89.66098, "status": "COMPLETE", "sub_zone_i": 24, "createdAt": "\\N", "updatedAt": "2020\/10\/01 10:59:25", "POPULATION": 42.0, "LabelID": 0 }, "geometry": { "type": "Point", "coordinates": [ 89.66098, 27.450114, 0.0 ] } }
+]
+}
