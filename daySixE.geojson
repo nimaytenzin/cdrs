@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "daySixE",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 313, "id": 333, "building_n": "158894", "lat": 27.434122, "lng": 89.67473, "status": "COMPLETE", "sub_zone_i": 14, "createdAt": "\\N", "updatedAt": "2020\/09\/26 08:03:37", "POPULATION": 24.0 }, "geometry": { "type": "Point", "coordinates": [ 89.67473, 27.434122 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 5041, "id": 5304, "building_n": "164453", "lat": 27.530364, "lng": 89.639673, "status": "COMPLETE", "sub_zone_i": 48, "createdAt": "\\N", "updatedAt": "2020\/09\/30 05:30:41", "POPULATION": 8.0 }, "geometry": { "type": "Point", "coordinates": [ 89.639673, 27.530364000000134 ] } }
-]
-}
