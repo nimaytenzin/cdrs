@@ -195,7 +195,7 @@
 },
 {
     "name": "2/1/2021 Day 13",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayThirteen.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
