@@ -171,7 +171,7 @@
 },
 {
     "name": "4/1/2021 Day 15",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFifteen.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
