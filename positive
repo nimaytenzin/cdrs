@@ -280,7 +280,7 @@
 },
 {
     "name": "27/12/2020 Day 7",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/daySeven.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
