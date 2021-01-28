@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "daythree",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 3486, "id": 3657, "building_n": "162614", "lat": 27.43707, "lng": 89.655541, "status": "COMPLETE", "sub_zone_i": 2, "createdAt": "\\N", "updatedAt": "2020-10-05 04:09:09", "POPULATION": 80.0 }, "geometry": { "type": "Point", "coordinates": [ 89.655541, 27.437070000000119 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 4273, "id": 4493, "building_n": "163556", "lat": 27.53176, "lng": 89.645007, "status": "COMPLETE", "sub_zone_i": 52, "createdAt": "\\N", "updatedAt": "2020-09-24 08:34:54", "POPULATION": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 89.645007, 27.53176 ] } }
-]
-}
