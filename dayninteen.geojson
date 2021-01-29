@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "dayninteen",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 2194, "id": 2322, "building_n": "161143", "lat": 27.447955, "lng": 89.66261, "status": "COMPLETE", "sub_zone_i": 24, "createdAt": "\\N", "updatedAt": "2020\/10\/01 08:55:50", "POPULATION": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 89.66261, 27.447955 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6726, "id": 7088, "building_n": "166414", "lat": 27.462249, "lng": 89.639132, "status": "COMPLETE", "sub_zone_i": 4, "createdAt": "\\N", "updatedAt": "2020\/10\/01 05:18:03", "POPULATION": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 89.639132, 27.462249 ] } }
+]
+}
