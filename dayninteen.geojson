@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "dayninteen",
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 6726, "id": 7088, "building_n": "166414", "lat": 27.462249, "lng": 89.639132, "status": "COMPLETE", "sub_zone_i": 4, "createdAt": "\\N", "updatedAt": "2020\/10\/01 05:18:03", "POPULATION": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 89.639132, 27.462249 ] } }
+]
+}
