@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "dayTwenty",
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 7703, "id": 8112, "building_n": "167457", "lat": 27.458753, "lng": 89.646094, "status": "COMPLETE", "sub_zone_i": 51, "createdAt": "\\N", "updatedAt": "2020\/09\/24 13:58:31", "POPULATION": 64.0 }, "geometry": { "type": "Point", "coordinates": [ 89.646094, 27.458753 ] } }
+]
+}
