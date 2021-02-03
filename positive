@@ -123,7 +123,7 @@
 },
 {
     "name": "7/1/2021 Day 18",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayninteen.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
