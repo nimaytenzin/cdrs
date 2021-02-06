@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "dayfour",
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 2194, "id": 2322, "building_n": "161143", "lat": 27.447955, "lng": 89.66261, "status": "COMPLETE", "sub_zone_i": 24, "createdAt": "\\N", "updatedAt": "2020\/10\/01 08:55:50", "POPULATION": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 89.66261, 27.447955 ] } }
-]
-}
