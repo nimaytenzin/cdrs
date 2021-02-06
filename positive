@@ -14,7 +14,7 @@
 },
 {
     "name": "Primary contact_21days not completed_HQ",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/PC_lessthan21days.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,182,35)",
