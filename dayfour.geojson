@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "dayfour",
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 2194, "id": 2322, "building_n": "161143", "lat": 27.447955, "lng": 89.66261, "status": "COMPLETE", "sub_zone_i": 24, "createdAt": "\\N", "updatedAt": "2020\/10\/01 08:55:50", "POPULATION": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 89.66261, 27.447955 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 5037, "id": 5300, "building_n": "164449", "lat": 27.53155, "lng": 89.639778, "status": "COMPLETE", "sub_zone_i": 48, "createdAt": "\\N", "updatedAt": "2020\/10\/05 04:15:45", "POPULATION": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 89.639778, 27.53155 ] } }
-]
-}
