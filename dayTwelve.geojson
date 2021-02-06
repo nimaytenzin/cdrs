@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "dayTwelve",
-"features": [
-{ "type": "Feature", "properties": { "id": 2559, "building_n": "161393", "lat": 27.457594, "lng": 89.66462, "status": "COMPLETE", "sub_zone_i": 18, "createdAt": "\\N", "updatedAt": "2020\/09\/25 07:14:33", "POPULATION": 67.0 }, "geometry": { "type": "Point", "coordinates": [ 89.66462, 27.457594 ] } },
-{ "type": "Feature", "properties": { "id": 2564, "building_n": "161398", "lat": 27.458204, "lng": 89.664666, "status": "COMPLETE", "sub_zone_i": 18, "createdAt": "\\N", "updatedAt": "2020\/09\/26 05:08:17", "POPULATION": 6.0 }, "geometry": { "type": "Point", "coordinates": [ 89.664666, 27.458204 ] } }
-]
-}
