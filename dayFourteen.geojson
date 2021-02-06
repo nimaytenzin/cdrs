@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "dayFourteen",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5264" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 5256, "id": 5522, "building_n": "164673", "lat": 27.526808, "lng": 89.638824, "status": "COMPLETE", "sub_zone_i": 48, "createdAt": "\\N", "updatedAt": "2020\/09\/27 04:19:55", "POPULATION": 13.0 }, "geometry": { "type": "Point", "coordinates": [ 89.638824000000113, 27.526808 ] } }
+]
+}
