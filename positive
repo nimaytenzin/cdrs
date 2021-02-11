@@ -244,7 +244,7 @@
 },
 {
     "name": "30/12/2020 Day 10",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTen.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
