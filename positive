@@ -111,7 +111,7 @@
 },
 {
     "name": "8/1/2021 Day 19",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayTwenty.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
@@ -268,7 +268,7 @@
 },
 {
     "name": "28/12/2020 Day 8",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayEight.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
