@@ -135,7 +135,7 @@
 },
 {
     "name": "Cases from Quarantine",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/quarantineCases.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 6,
         "fillColor": "rgb(23,19,219)",
