@@ -184,7 +184,7 @@
 },
 {
     "name": "3/1/2021 Day 14",
-    "dataUrl" : "https://raw.githubusercontent.com/nimaytenzin/cdrs/main/dayFourteen.geojson",
+    "dataUrl" : "",
     "style" : {
         "radius": 5,
         "fillColor": "rgb(247,18,40)",
