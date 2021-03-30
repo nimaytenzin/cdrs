@@ -1,4 +1,4 @@
-origin_id,origin_zone,dest_id,dest_school,count(*),school_lat,School_long,zone_lat,zone_long
+origin_id,origin_zone,dest_id,dest_school,count,school_lat,School_long,zone_lat,zone_long
 1,Babesa,101,Babesa HSS,249,27.426344,89.657088,27.42918166770,89.64720960230
 3,Bjemina,101,Babesa HSS,1,27.426344,89.657088,27.40296800000,89.57070400000
 4,Changangkha,101,Babesa HSS,1,27.426344,89.657088,27.47245399040,89.63084646850
